@@ -1,0 +1,18 @@
+En el desarrollo de aplicaciones del entorno cliente, es fundamental elegir una arquitectura y unas herramientas adecuadas que permitan 
+crear programas eficientes y compatibles con diferentes dispositivos y navegadores.
+
+Una de las arquitecturas más comunes es la arquitectura cliente-servidor, en la que el cliente, por ejemplo un navegador web, solicita 
+servicios o información, y el servidor los proporciona. Este modelo permite distribuir el trabajo entre ambos, facilitando la escalabilidad 
+y el mantenimiento centralizado de los datos, aunque también depende de la conexión a la red.
+
+Otra estructura muy utilizada es la arquitectura de tres capas, que separa la aplicación en tres niveles: la capa de presentación, que se encarga 
+de la interfaz del usuario; la capa de lógica de negocio, que gestiona las reglas y procesos de la aplicación; y la capa de datos,
+donde se almacenan y consultan los recursos. Esta separación facilita las actualizaciones, las pruebas y la reutilización del código.
+
+El entorno cliente es la parte del software que se ejecuta directamente en el dispositivo del usuario. Su función principal es mostrar la información,
+permitir la interacción con la aplicación y realizar ciertas validaciones sin necesidad de contactar con el servidor. Para ello,
+se utilizan principalmente tecnologías como HTML, CSS y JavaScript, que en conjunto permiten construir páginas web dinámicas e interactivas.
+
+En cuanto a las herramientas de desarrollo, los programadores suelen utilizar editores de código como Visual Studio Code o Sublime Text,
+frameworks o librerías como React, Angular o Vue.js, y gestores de paquetes como npm para instalar dependencias. Además,
+se emplean sistemas de control de versiones, como Git, para mantener un registro de los cambios en el código y facilitar el trabajo en equipo
